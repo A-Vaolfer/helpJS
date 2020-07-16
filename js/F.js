@@ -82,3 +82,25 @@
 // console.log(4 * 4 !== 9); // !== и !=== Это означает не равно.
 //https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#Table 
 //- Таблица операторов
+// Условия 
+//4 == 9 ? // Если 4 = 9 то console.log("Ok!") : // если нет то console.log("Error");
+4 == 9 ? console.log('OK!') : console.log('He-He', 'lox'); // Через тернарнЫй оператор 3 аргумента
+if (4 == 9) {
+    console.log('OK!')
+} else {
+    console.log('He-He', 'loX');
+} // по простуму if - если () - условия 1 строчка что если да else - что если нет. 
+//else if () что есть - еще ода проверка
+let num = 10;
+
+switch (num) {
+    case 9:
+        console.log("nNOOOOOT");
+        break;
+    case 10:
+        console.log("YEEA");
+        break;
+    default:
+        console.log("not today");
+        break;
+}
