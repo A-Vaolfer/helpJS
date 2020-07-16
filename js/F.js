@@ -84,23 +84,23 @@
 //- Таблица операторов
 // Условия 
 //4 == 9 ? // Если 4 = 9 то console.log("Ok!") : // если нет то console.log("Error");
-4 == 9 ? console.log('OK!') : console.log('He-He', 'lox'); // Через тернарнЫй оператор 3 аргумента
-if (4 == 9) {
-    console.log('OK!')
-} else {
-    console.log('He-He', 'loX');
-} // по простуму if - если () - условия 1 строчка что если да else - что если нет. 
+// 4 == 9 ? console.log('OK!') : console.log('He-He', 'lox'); // Через тернарнЫй оператор 3 аргумента
+// if (4 == 9) {
+//     console.log('OK!')
+// } else {
+//     console.log('He-He', 'loX');
+// } // по простуму if - если () - условия 1 строчка что если да else - что если нет. 
 //else if () что есть - еще ода проверка
-let num = 10;
+// let num = 10;
 
-switch (num) {
-    case 9:
-        console.log("nNOOOOOT");
-        break;
-    case 10:
-        console.log("YEEA");
-        break;
-    default:
-        console.log("not today");
-        break;
-}
+// switch (num) { // = Модефикация IF
+//     case 9: // Только строгое сравнение
+//         console.log("nNOOOOOT");
+//         break; // Конец 1 проверки
+//     case 10:
+//         console.log("YEEA");
+//         break;
+//     default: // Если все не подошло то выполняется это.
+//         console.log("not today");
+//         break; 
+// }
