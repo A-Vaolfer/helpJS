@@ -103,4 +103,32 @@
 //     default: // Если все не подошло то выполняется это.
 //         console.log("not today");
 //         break; 
+// } // React >redux без swutch никак
+// https://drive.google.com/file/d/1oM1HzpbJTwBi5pdgeHjS3j2FW_FqKy1u/view // Условия и {циклы}
+// Циклы
+let num = 50;
+// while // Ключивое слово (num < 55) // условие {
+//     console.log(num); // Что делается пока условие не выполнится
+//     num++;    // Что делается пока условие не выполнится
+// }
+// while (num < 55) {
+//     console.log(num);
+//     num++;    
+// }
+
+// do { // В начале делаем 
+//     console.log(num); 
+//     num++;
+// }
+// while (num < 55); // потом проверяе.
+
+// for (let i = 1;// Переменная I - итератор i < 9; // Условие i++ // Что делаеть пока условие не сработает) {
+//     console.log(num);
+//     num++;
+// }
+// 57 потому что цикл оринтируется не на num а на  i 
+
+// for (let i = 1; i < 9; i++) {
+//     console.log(num);
+//     num++;
 // }
